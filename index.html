@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment 2.9 - HTML Accessibility Repair</title>
+  </head>
+  <body>
+    <header>
+      <h1>Digihub Portal</h1>
+    </header>
+
+    <main>
+      <section>
+        <!-- 1. Repaired Login Button -->
+        <button type="button" onclick="login()">Login</button>
+      </section>
+
+      <section>
+        <!-- 2. Repaired Heading -->
+        <h2>About Us</h2>
+
+        <!-- 3. Repaired Image with Alt Text -->
+        <img
+          src="team.jpg"
+          alt="Our diverse engineering and mentorship team collaborating in the workspace" />
+      </section>
+
+      <section>
+        <!-- 4. Repaired Form Label Association -->
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+        </form>
+      </section>
+
+      <section>
+        <!-- 5. Repaired Meaningful Link Text -->
+        <p>Ready to learn more? <a href="/services">View our services</a></p>
+      </section>
+    </main>
+  </body>
+</html>
